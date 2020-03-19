@@ -11,6 +11,7 @@ class C_dashboard extends CI_Controller {
 		}
 	}
 
+	// Membuat function index untuk menampilkan dashboard
 	public function index()
 	{
 		$data['username'] = $this->session->userdata('username');
